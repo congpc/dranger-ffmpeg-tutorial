@@ -1,0 +1,22 @@
+Copyright	tutorial02.c	/^\/\/ Code based on FFplay, Copyright (c) 2003 Fabr/
+Mtutorial01	tutorial01.c	/^int main(int argc, char *argv[]) {$/
+Mtutorial03	tutorial03.c	/^int main(int argc, char *argv[]) {$/
+Mtutorial04	tutorial04.c	/^int main(int argc, char *argv[]) {$/
+SaveFrame	tutorial01.c	/^void SaveFrame(AVFrame *pFrame, int width, int hei/
+VideoPicture	tutorial04.c	/^} VideoPicture;$/
+VideoState	tutorial04.c	/^} VideoState;$/
+alloc_picture	tutorial04.c	/^void alloc_picture(void *userdata) {$/
+audio_callback	tutorial03.c	/^void audio_callback(void *userdata, Uint8 *stream,/
+audio_decode_frame	tutorial03.c	/^int audio_decode_frame(AVCodecContext *aCodecCtx, /
+decode_interrupt_cb	tutorial04.c	/^int decode_interrupt_cb(void *opaque) {$/
+decode_thread	tutorial04.c	/^int decode_thread(void *arg) {$/
+packet_queue_get	tutorial03.c	/^static int packet_queue_get(PacketQueue *q, AVPack/
+packet_queue_init	tutorial03.c	/^void packet_queue_init(PacketQueue *q) {$/
+packet_queue_put	tutorial03.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt/
+queue_picture	tutorial04.c	/^int queue_picture(VideoState *is, AVFrame *pFrame)/
+schedule_refresh	tutorial04.c	/^static void schedule_refresh(VideoState *is, int d/
+sdl_refresh_timer_cb	tutorial04.c	/^static Uint32 sdl_refresh_timer_cb(Uint32 interval/
+stream_component_open	tutorial04.c	/^int stream_component_open(VideoState *is, int stre/
+video_display	tutorial04.c	/^void video_display(VideoState *is) {$/
+video_refresh_timer	tutorial04.c	/^void video_refresh_timer(void *userdata) {$/
+video_thread	tutorial04.c	/^int video_thread(void *arg) {$/
