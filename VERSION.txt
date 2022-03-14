@@ -1,3 +1,0 @@
-FFMpeg 3.3.4
-ffmpeg 4.3 msvc
-ffmpeg 4.4 gcc
